@@ -3,7 +3,7 @@
 
 Este site de casamentos contém:
 - [X] Tela de Boas Vindas
-- [ ] Contagem Regressiva / Save the Date
+- [X] Contagem Regressiva / Save the Date
 - [X] Dia e horário do evento
 - [ ] Cronograma do dia
 - [X] Local apontado com Google Maps
