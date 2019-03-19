@@ -56,7 +56,9 @@ body {
   line-height: 1.5;
   color: #333;
   text-align: left;
-  background-color: #eee; }
+  background-color: #eee;
+  background-image: url('../images/dust_scratches.png');
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
