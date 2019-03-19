@@ -1,9 +1,9 @@
-# Casamento
-## Alice & Matheus
+# Site de Casamento :couple:
+##### Alice & Matheus
 
 Este site de casamentos contém:
 - [X] Tela de Boas Vindas
-- [ ] Contagem Regressiva
+- [ ] Contagem Regressiva / Save the Date
 - [X] Dia e horário do evento
 - [ ] Cronograma do dia
 - [X] Local apontado com Google Maps
@@ -20,7 +20,7 @@ Itens a parte:
 - [ ] Dia, hora e local do Chá de Churrasco
 
 ### Como executar o projeto:
-#### Possuir node.js instalado
+##### Possuir node.js instalado
 
 ```
 cd casamento
