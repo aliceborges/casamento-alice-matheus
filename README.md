@@ -20,11 +20,11 @@ Itens a parte:
 - [ ] Dia, hora e local do Chá de Churrasco
 
 ### Como executar o projeto:
-##### Possuir node.js instalado
+##### Possuir node.js, ruby, rubygems e jekyll instalados
+###### Ambiente: Ubuntu 18.10
 
 ```
 cd casamento
-build install
 jekyll build
 jekyll serve
 ```
