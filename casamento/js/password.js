@@ -1,5 +1,6 @@
 $(document).ready(function(){
 
+  $('.adviseLock').hide();
   $('body').css({'backgroundImage': "url('images/lock.jpg')"});
 
   function askPassword(again = false){
@@ -17,7 +18,11 @@ $(document).ready(function(){
       $('body').css({'backgroundImage': "url('images/dust_scratches.png')"});
       $('#free').show();
     }else{
-      doAsk(true);
+      if(password == null){
+        $('.adviseLock').show();
+      }else{
+        doAsk(true);
+      }
     }
   }
 
