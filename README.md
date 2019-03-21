@@ -11,7 +11,7 @@ Este site de casamentos contém:
 - [X] Lista de presentes
 - [X] Confirmar Presença
 - [ ] Formulário do Confirmar Presença em funcionamento
-- [ ] Acesso Restrito
+- [X] Acesso Restrito
 - [ ] Galeria Pré-Wedding
 - [ ] Galeria do casamento
 
