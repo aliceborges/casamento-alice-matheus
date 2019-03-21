@@ -1,11 +1,16 @@
 $(document).ready(function(){
 
   $('.adviseLock').hide();
+  //
+  // height:auto;
+  //     background-image:url(sidebar-superior.png);
+  //     background-repeat:no-repeat;
+  //     background-size:100% 100%;﻿
 
   if($(window).width() <= 520){
-    $('body').css({'backgroundImage': "url('images/lock.jpg')"});
+    $('body').css({'backgroundImage': "url('images/lock.jpg')",'backgroundRepeat':'no-repeat','backgroundSize':'100%'});
   }else{
-    $('body').css({'backgroundImage': "url('images/lock-full.jpg')"});
+    $('body').css({'backgroundImage': "url('images/lock-full.jpg')",'backgroundRepeat':'no-repeat','backgroundSize':'100%'});
   }
 
   function askPassword(again = false){
@@ -20,7 +25,7 @@ $(document).ready(function(){
 
     if (password == sitePassword){
       $('#locked').hide();
-      $('body').css({'backgroundImage': "url('images/dust_scratches.png')"});
+      $('body').css({'backgroundImage': "url('images/dust_scratches.png')",'backgroundRepeat':'repeat','backgroundSize':'auto'});
       $('#free').show();
     }else{
       if(password == null){
