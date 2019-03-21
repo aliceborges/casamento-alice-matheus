@@ -1,7 +1,12 @@
 $(document).ready(function(){
 
   $('.adviseLock').hide();
-  $('body').css({'backgroundImage': "url('images/lock.jpg')"});
+
+  if($(window).width() <= 520){
+    $('body').css({'backgroundImage': "url('images/lock.jpg')"});
+  }else{
+    $('body').css({'backgroundImage': "url('images/lock-full.jpg')"});
+  }
 
   function askPassword(again = false){
     content = again ? 'A senha informada está errada. \n\n Qual é a senha?' : 'Qual é a senha?';
